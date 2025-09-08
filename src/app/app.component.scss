@@ -5,8 +5,6 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin: 0 auto;
-  max-width: 1528px;
   grid-template-columns: 1fr;
   grid-template-rows: 1000px auto 300px;
 }
@@ -21,7 +19,6 @@
   padding: 100px 0;
 }
 .hero-container {
-  max-width: 1528px;
   margin: 0 auto;
   padding: 0 20px;
 }
