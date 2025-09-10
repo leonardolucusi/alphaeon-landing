@@ -1,0 +1,104 @@
+.team-main {
+  display: flex;
+  max-width: 1328px;
+  flex-direction: column;
+  gap: 50px;
+  padding: 0 20px;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+}
+
+/* team-title */
+.team-title > div:first-child {
+  font-size: 3rem;
+  font-family: 'Cinzel', cursive;
+  font-weight: bold;
+}
+
+.team-title > div:nth-child(2) {
+  font-size: 1.2rem;
+  color: #707070;
+}
+
+/* team-github */
+.team-github {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.team-github > div:first-child,
+.team-github > div:nth-child(2) {
+  padding: 4%;
+  width: 200px;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 10px 10px 10px 10px;
+}
+
+@media (max-width: 600px) {
+  .team-github {
+    flex-direction: column;
+    align-items: center;
+  }
+  .team-github > div:first-child,
+  .team-github > div:nth-child(2) {
+    width: 300px;
+  }
+}
+@media (max-width: 320px) {
+  .team-github > div:first-child,
+  .team-github > div:nth-child(2) {
+    width: 150px;
+  }
+}
+@media (max-width: 355px) {
+  .team-main {
+    .team-github > div:first-child,
+    .team-github > div:nth-child(2) {
+      width: 200px;
+    }
+  }
+}
+
+/* team-github title*/
+.team-github > div:first-child > div:first-child,
+.team-github > div:nth-child(2) > div:first-child {
+  padding-bottom: 20px;
+  font-family: 'Cinzel', cursive;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+
+@media (max-width: 350px) {
+  .team-github > div:first-child > div:first-child{
+    font-size: 1.3rem;
+  }
+}
+
+.team-github svg {
+  width: 20px;
+  height: 20px;
+}
+
+.team-github-svg-text {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.team-github-svg-text > svg {
+  width: 20px;
+  height: 20px;
+  padding-right: 8px;
+}
+
+/* links */
+a{
+  text-decoration: none;
+}
+a:active {
+  color: #686868;
+}

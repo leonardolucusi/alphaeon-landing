@@ -8,6 +8,7 @@ import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {NavbarComponent} from './navbar/navbar.component';
 import {ServicesComponent} from './services/services.component';
 import {CasesComponent} from './cases/cases.component';
+import {TeamComponent} from './team/team.component';
 
 @Component({
   selector: 'app-root',
@@ -18,6 +19,7 @@ import {CasesComponent} from './cases/cases.component';
     HeroComponent,
     AboutComponent,
     CasesComponent,
+    TeamComponent,
     ServicesComponent,
     MatToolbarModule,
     MatGridListModule,
