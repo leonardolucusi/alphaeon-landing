@@ -6,6 +6,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatButtonModule} from '@angular/material/button';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {NavbarComponent} from './navbar/navbar.component';
+import {ServicesComponent} from './services/services.component';
+import {CasesComponent} from './cases/cases.component';
 
 @Component({
   selector: 'app-root',
@@ -15,6 +17,8 @@ import {NavbarComponent} from './navbar/navbar.component';
     NavbarComponent,
     HeroComponent,
     AboutComponent,
+    CasesComponent,
+    ServicesComponent,
     MatToolbarModule,
     MatGridListModule,
     MatButtonModule
